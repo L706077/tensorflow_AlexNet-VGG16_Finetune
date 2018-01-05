@@ -18,8 +18,10 @@
 - [hjptriplebee/AlexNet_with_tensorflow](https://github.com/hjptriplebee/AlexNet_with_tensorflow)
 - [hjptriplebee Blog](http://blog.csdn.net/accepthjp/article/details/69999309)
 
+---
 
-
+## Create_path images/labels .txt
+```C++
 #!/usr/bin/env python
 
 import sys
@@ -79,3 +81,4 @@ if __name__ == "__main__":
             label = label + 1
     file1.close()
     file2.close()
+```
